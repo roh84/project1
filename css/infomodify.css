@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+.modify{
+    margin: auto;
+    text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+.modify > h2{
+    text-align: center;
+    padding: 0 2rem;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+
+}
+
+.modify .info_modi{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+}
+
+.info_modi::before{
+    content: '';
+    height: 100%;
+    position: absolute;
+    border: 0.5px solid #999;
+    background-color: #999;
+}
+.info_modi .user_modi,
+.info_modi .pet_modi{
+    width: 35%;
+    height: 450px;
+    border-radius: 20px;
+    text-align: center;
+}
+.info_modi .user_modi > div,
+.info_modi .pet_modi> div{
+    padding: 1rem 0 ;
+}
+
+.user_modi .user,
+.pet_modi .pet{
+	font-size: 1.3rem;
+	margin-right: 0.5rem;
+	}
+
+.modi_image{
+   	border-radius: 50%;
+    width:130px;
+    height: 130px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+	object-fit:cover;
+	position: relative;
+}
+
+.infomodi_img{
+	width: 100%;	
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: 0;
+	height: 100%;
+}
+
+.file{
+	
+}
+
+.modiWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.modiWrap > *{
+    margin: 0.5rem 0;
+}
+
+.modiWrap > input{
+    width:30%;
+}
+
+.radioBoxWrap{
+    display: flex;
+    gap: 1.4rem;
+
+
+    
+}
+
+.info_modi input{
+    border: none;
+    border-bottom: 2px solid #fa5;
+    padding: 0.5rem 0;
+}
+
+.modify .info_modi input.file{
+    border: none;
+    margin-left: 5rem;
+}
+
+.Modi_btn{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+   	width: 14vw;
+ 	height: 5vh;
+  	background-color: #fa5;    
+  	font-weight: bold;
+    border: none;
+    margin-bottom:7.5rem;
+}
+
+.withdraw{
+    position: absolute;
+    right: 3rem;
+    bottom:1rem;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    color:#777;
+    border: none;
+    background-color: white;    
+    cursor: pointer;
+}
+
+.withdraw:hover{
+    color:red;
+}
+
+.modi_submit{
+	display: block;
+    margin: auto;
+    border-radius: 20px;
+   	width: 14vw;
+ 	height: 5vh;
+  	background-color: #fa5;    
+  	font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+ 	
+}

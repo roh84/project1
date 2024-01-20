@@ -1,0 +1,46 @@
+@charset "UTF-8";
+  
+.editContainer{
+   width:40%;
+   margin:auto;
+   margin-top:13rem ;
+   margin-bottom:10rem ;
+}
+
+
+.editContainer > h2{
+   text-align: center;
+   padding-bottom: 4rem;
+   font-size:1.5rem;
+}
+
+.editContainer > .editForm > textarea{
+   width: 100%;
+}
+
+.userNickname{
+   border: none;
+}
+
+.viewTitle{
+   height: 3rem;
+   border-radius: 10px;
+
+}
+
+.viewTextarea{
+   height: 20rem;
+   border-radius: 10px;
+
+}
+.editbtnWrap{
+   text-align: right;
+}
+
+.editbtnWrap > button{
+   background-color: #fa5;
+   border-radius: 20px;
+   border: none;
+   width: 5vw;
+   padding: 0.3rem 0;
+}

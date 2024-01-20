@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* swiper */
+.mainslide {
+  width: 100%;
+  margin-top: 12rem;
+  border-radius: 20px;
+}
+
+.mainslide .swiper-wrapper {
+  height: 450px;
+}
+
+.mainslide .swiper-wrapper .image {
+  width: 100%;
+  height: 100%;
+}
+.mainslide .swiper-slide {
+  position: relative;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color:#fa5;
+}
+
+.trade-box {
+  width: 35%;
+  margin: auto;
+  margin-bottom: 10rem;
+}
+
+.trade-info {
+  display: flex;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #fa5;
+}
+
+.trinfo-box {
+  flex-direction: column;
+  margin-left: 0.7rem;
+  margin-top: 0.5rem;
+}
+
+.trade_image {
+  width: 3rem;
+  height: 3rem;
+  background-color: gray;
+  border-radius: 50px;
+}
+
+.trainfo-nick {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.trainfo-addr {
+  font-size: 14px;
+}
+
+.trade-des {
+  margin-top: 2rem;
+}
+
+.trade-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.trade-price {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.trade-content {
+  margin: 2.5rem 0;
+  font-size: 19px;
+}
+
+.trade-line {
+  border-top: 2px solid #fa5;
+}
+

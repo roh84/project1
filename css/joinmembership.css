@@ -1,0 +1,70 @@
+
+.join-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.join-box {
+  width: 30vw;
+  height: 60vh;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 20vw;
+}
+.join-labelbox {
+  width: 50%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  gap: 4vh;
+}
+
+.ipbox {
+  width: 13vw;
+  height: 4vh;
+  border: none;
+  border-bottom: 1px solid #bbb;
+}
+
+.ckbox {
+  width: 4.5vw;
+  height: 3.5vh;
+  font-size: 0.6vw;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.submitbtn {
+  width: 14vw;
+  height: 5vh;
+  border-radius: 20px;
+  border: none;
+  background-color: #fa5;
+  margin-top: 2vh;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.submitbtn:hover {
+  background-color: #fa6;
+}
+  
+.nick-box,
+.id-box {
+  display: flex;
+}
+
+.joinpic{
+  width: 100%;
+}
+
+.join-img {
+  width: 10vw;
+  margin: auto;
+  margin-top:11rem;
+} 
+
+

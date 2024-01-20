@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.searchresult {
+  margin: 12rem 0;
+}
+.searchresult-box {
+  width: 60%;
+  margin: auto;
+}
+
+.searchresult-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.searchresult-box > ul > li {
+  margin-bottom: 1rem;
+}
+.content-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.searchresult-box .content {
+  width: 100%;
+  height: 10rem;
+}
+
+.searchresult-box > ul > li {
+  margin: auto;
+}

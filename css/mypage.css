@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+
+
+.info_wrap{
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+.info{
+    font-size: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1.5rem 0;
+    font-size: 1.3rem;
+    
+}
+
+.info > div{
+    width: 200px;
+}
+.info > div:hover{
+    color:#fa5;
+
+}
+.userPet_info{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+}
+
+.userPet_info .user,
+.pet_info .pet{
+	font-size: 1.3rem;
+	margin-right: 0.5rem;
+	}
+
+.userPet_info::before{
+    content: '';
+    height: 100%;
+    position: absolute;
+    border: 0.5px solid #999;
+    background-color: #999;
+
+
+}
+.userPet_info .user_info,
+.userPet_info .pet_info{
+
+    width: 35%;
+    height: 450px;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+
+.userPet_info .user_info > div,
+.userPet_info .pet_info > div{
+    padding: 1rem 0 ;
+}
+
+
+.userPet_info  .info_box{
+    display: flex;
+    width: 50%;
+    margin:auto;
+
+}
+
+.info_menu{
+    margin-bottom: 5.1rem;
+    
+}
+
+
+.info_menu > .Modifybtn{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+   	width: 14vw;
+ 	height: 5vh;
+  	background-color: #fa5;    
+  	font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.info_menu > form > .logoutbtn{
+  width: 14vw;
+  height: 5vh;
+  border-radius: 20px;
+  border: none;
+  background-color: #fa5;
+  cursor: pointer;
+  margin: 1.5vh auto;
+  font-weight: bold;
+}
+
+.info_wrap .info_image{
+	border-radius: 50%;
+    width:130px;
+    height: 130px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+	object-fit:cover;
+	position: relative;
+}
+.info_image > .profile_img{
+	width: 100%;	
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: 0;
+	height: 100%;
+}
+.info_box{
+    border-bottom: 2px solid #fa5;
+    padding: 0 2rem;
+
+}
+.info_box > .write{
+    width:25%;
+    font-size:1.1rem;
+    color:#777 ;
+    padding: 0.5rem 0 0;
+}
+.info_box > .content{
+    margin-left: 2rem;
+    padding: 0.5rem 0 0;
+    color:black;
+    
+
+}
+
+
+
+.user_info > .write,
+.pet_info > .write{
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.fa-solid:hover {
+  color: #fa5;
+}

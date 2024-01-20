@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.boardBox{
+	display: flex;
+	gap:0.7rem;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.boardBox > *{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 1rem 0;
+}
+.boardBox > .NumBox,
+.boardBox > .hitCountBox
+{
+	width: 10%;
+}
+.boardBox > .date{
+	width: 30%;
+}
+.boardBox > .titleBox{
+	width:60%;
+}

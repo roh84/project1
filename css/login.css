@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.login-box {
+  width: 30vw;
+  height: 70vh;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10vh;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.login-ipbox {
+  width: 13vw;
+  height: 6vh;
+  border: none;
+  border-bottom: 1px solid #bbb;
+  margin: auto;
+}
+
+.login-box2 {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.loginbtn {
+  width: 14vw;
+  height: 5vh;
+  border-radius: 20px;
+  border: none;
+  background-color: #fa5;
+  cursor: pointer;
+  margin: 5vh auto;
+  font-weight: bold;
+}
+
+.gojoin {
+  font-size: 13px;
+  text-align: right;
+  float: right;
+  display: flex;
+  gap: 2rem;
+}
+
+.gojoin > a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-img {
+  width: 100%;
+}
+
+.loginimg {
+  width: 15vw;
+  margin: auto;
+}

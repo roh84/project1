@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+
+.detail{
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    width: 50%;
+}
+
+.detail > h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem 0 1rem;
+    border-bottom: 2px solid #fa5;
+}
+
+.detail_board{
+    margin: auto;
+    width: 65%;
+}
+
+.detail_board > div{
+    margin: 1rem 0;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+}
+
+.detail_board .detail_img{
+    border: 1px solid #000;
+    width: 500px;
+    height: 300px;
+}
+
+.detail_board > img{
+    width: 100%;
+}
+
+.detail_board > .detail_writer,
+.detail_board > .detail_contents
+{
+   font-size: 0.8rem;
+   font-weight: lighter;
+   
+}
+
+.detail_board > .detail_contents{
+   word-break:break-all;
+}
+
+
+
+.detail_board > .detail_title{
+   font-size: 1.5rem;
+}
+
+.detail_btn{
+   display: flex;
+   justify-content: right;
+   gap: 1rem;
+}
+.buttonContainer > button,
+.btnform > .goback
+{
+   border-radius: 10px;
+   background-color: #fa5;
+   border: none;
+   cursor: pointer;
+   padding: 0.5rem 0;
+   width: 5vw;
+   font-weight: bold;
+}
+
+.buttonContainer > button{
+	margin-left: 0.5rem;
+}
+.comment_box{
+    width: 70%;
+    margin: auto;
+}
+.comment_box > h4{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    border-bottom: 1px solid black;
+    padding: 0.5rem 0;
+    
+}
+
+.comment_wrap{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    margin: 0 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.writing_field{
+    width: 105%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.writing_field > .text{
+    width: 120%;
+    height: 100px;
+    border-radius: 20px;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.writing_field > .writing_btn{
+    border: none;
+    padding: 1rem;
+    height: calc(100px + 2rem);
+    background-color: #fa5;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.modi_btn{
+   margin-top:1rem;
+}
+.btnform{
+	display: flex ;
+	gap: 0.5rem ;
+}
+.modi_btnWrap > button{
+	border-radius:10px;
+	background-color: white;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.modi_btnWrap > button:hover{
+	background-color: white;
+	color:red;
+	border:1px solid red;
+}
+
+.replyWrap{
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.9rem;
+}
+
+.replyContents{
+	padding: 0.5rem 0;
+	margin-bottom: 0.5rem;
+	position: relative;
+	font-size: 1.2rem;
+}
+
+.replyContents::before{
+	content:'';
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	position: absolute;
+	bottom: 0;
+}
+
+.dropzone{
+	width: 100%;
+}
+
+.imageContainer{
+	width: 80%;
+	height: 100%;
+	margin:auto;
+	margin-bottom: 3rem;
+}
+
+.imageContainer > img{
+	width: 100%;
+	height: 100%;
+
+}
+.detail_board > #imageContainer4{
+		border-bottom:none;
+		margin:auto;
+		width: 100%;
+		border-radius:15px ;
+		overflow: hidden;
+}
+
+.detail_board > #userNickname4{
+		border-bottom: 3px solid #fa5;
+	
+}
+
+
+.detail_board > #viewTitle4{
+		border-bottom:none;
+		font-size: 1.5rem;
+		font-weight: bold;
+
+}
+
+.detail_board > div.box{
+		border-bottom: 3px solid #fa5;
+	
+}

@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+.insertpage{
+   margin:auto;
+   margin-top:12rem;
+   margin-bottom:10rem;
+}
+
+.insert-box {
+  width: 40%;
+  margin: auto;
+}
+
+.insert-list {
+  width: 10rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+.titleInput {
+  width: 100%;
+  height: 3rem;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  margin-bottom: 1rem;
+}
+
+.postTextarea {
+  width: 100%;
+  height: 20rem;
+  border-radius: 10px;
+  border: 1px solid #bbb;
+  margin-bottom: 1rem;
+}
+
+.insertok {
+  width: 13rem;
+  height: 3rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #fa5;
+  margin: auto;
+  margin-left: 16.7rem;
+}
+
+.btns {
+  display: flex;
+}
+
+.cancelbtn,
+.backbtn
+ {
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  border-radius: 20px;
+  margin-left: 0.3rem;
+}
+
+
+
+
+.insertok:hover,
+.cancelbtn:hover,
+.backbtn:hover {
+  cursor: pointer;
+}
+
+.cancelbtn:hover,
+.backbtn:hover {
+  color: red;
+}
+
+.insert-list:hover {
+  cursor: pointer;
+}
+
+.insertpage-p{
+   float:right;
+}
+
+.userNickname{
+   border: none;
+   padding: 0 0 1.5rem;
+}
+
+.dropzone{
+   margin-bottom: 3rem;
+}
+
+.insertpage{
+	position: relative;
+}
+.insertpagebox{
+   display:flex;
+   flex-direction:column;
+   margin-bottom: 8rem;
+   line-height: 2rem;
+   position: absolute;
+   top:0px;
+   left: 350px;
+}
+.insertpagebox > ul ul {
+  display: none;
+}
+.insertpagebox > ul:hover > li > ul {
+  display: block;
+}
+
+.insertpagebox > ul > li > ul > li {
+   height: 2rem;
+   line-height: 2rem;
+   position: relative;
+}
+
+.insertbtn{
+   width:10rem;
+}
+
+.insertbtn::before{
+	content: '▼';
+	position: absolute;
+	top: 0;
+	left: 90px;
+	font-size: 15px;
+}
+.insertbtn > li {
+   height:2rem;
+}

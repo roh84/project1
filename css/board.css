@@ -1,0 +1,110 @@
+@charset "UTF-8";
+  
+.main_board {
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  width: 50%;
+  font-size: 0.8rem;
+}
+   
+.main_board > h3 {
+  padding: 2rem 0 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid #fa5;
+  margin-bottom: 1rem;
+}
+        
+.board {
+  display: flex;
+  position: relative;
+}
+.board > div {
+  width: 10%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+}
+
+.board > div:nth-of-type(2)::before {
+  content: "";
+  width: 97%;
+  background-color: #888;
+  border: 0.1px solid #888;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+}
+.board > div:nth-of-type(2) {
+  width: 50%;
+  text-align: left;
+}
+
+.board > div:nth-of-type(2) > div:nth-of-type(2) {
+  font-size: 0.7rem;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+.board > div:nth-of-type(2) > * {
+  padding: 0.2rem 0;
+}
+
+.board > .writer{
+	width: 25%;
+}
+
+.board > .hitBox{
+	width: 10%;
+}
+.pages {
+  text-align: center;
+  padding: 1.5rem;
+  opacity: 0;
+}
+
+.pages > span {
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.pages > span:hover {
+  color: #fa5;
+}
+
+.searchform {
+  text-align: center;
+}
+.searchform > button {
+  border-radius: 10px;
+  background-color: #fa5;
+  border: none;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.refresh {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.refresh > button {
+  border-radius: 10px;
+  background-color: #fa5;
+  border: none;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+}
+
+.pages.on {
+  opacity: 1;
+}
+.fa-solid:hover {
+  color: #fa5;
+}

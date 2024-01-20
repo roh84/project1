@@ -1,0 +1,131 @@
+@charset "UTF-8";
+   
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "SUITE-Regular";
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  gap: 18rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5rem 2rem 0 2rem;
+  background-color: white;
+  top: 0;
+  z-index: 99;
+  border-bottom: 3px solid #fa5;
+}
+nav h1 {
+  width: 23%;
+}
+nav h1 > img {
+  width: 100%;
+}
+nav .menu {
+  width: 100%;
+
+}
+nav .menu .logo_img{
+	width: 15%;
+	margin-left:13rem;
+}
+nav .menu .logo_img > img{
+	width: 100%;
+}
+nav .menu .search {
+  margin-top: 2rem;
+}
+nav .menu .search input {
+  width: 55%;
+  height: 2.5rem;
+  border-radius: 999px;
+  overflow: hidden;
+}
+nav .menu .search button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+nav .menu .search i:hover {
+  color: #fa5;
+}
+
+nav .box {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0 0.5rem;
+}
+
+nav .box .board ul {
+  display: flex;
+  gap: 3.5rem;
+}
+nav .box .board ul li {
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #444;
+}
+nav .box .board ul li:hover {
+  color: #fa5;
+}
+nav .box .board ul li:nth-of-type(1) {
+  padding: 1rem 1rem 1rem 0;
+}
+
+nav .box .login {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  cursor: pointer;
+}
+nav .box .login > div:hover,
+.login input:hover {
+  font-weight: bold;
+  color: #333;
+}
+
+nav .box .login::before {
+  content: "|";
+  position: absolute;
+  left: 47%;
+  transform: translateX(-50%);
+}
+
+.sec {
+  height: 500px;
+  background-color: #444;
+}
+
+.login  .logout {
+  border: none;
+  background-color: white;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 1000;
+  font-family: "SUITE-Regular";
+  cursor: pointer;
+  font-weight: lighter;
+}
+.myprofile {
+  display: flex;
+  position: absolute;
+  top: 45%;
+  right: 3%;
+  align-items: center;
+  transform: translateY(-50%);
+  gap: 1rem;
+  justify-content: center;
+}

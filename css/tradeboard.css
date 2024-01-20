@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.trade_contents{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+.trade_board{
+    width: 100%;
+    padding: 1rem;
+}
+
+.trade_board > .product{
+    width: 100%;
+    height: 250px;
+    border: 1px solid #000;
+}
+
+.trade_board > div{
+    margin-bottom: 1rem;
+}
+
+.product_name{
+	cursor: pointer;
+}

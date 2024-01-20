@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+.info_wrap{
+    margin: auto;
+    text-align: center;
+  margin: 10rem 0 4rem 0;
+}
+.info{
+    font-size: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1.5rem 0;
+    font-size: 1.3rem;
+
+    
+}
+
+.info > div{
+    width: 200px;
+}
+.info > div:hover{
+    color:#fa5;
+}
+
+.document ul{
+    display: flex;
+    margin-top: 2rem;
+    gap:1rem;
+    padding: 0 1rem;
+}
+
+.document ul li{
+    width: calc((100% - 5rem)/4);
+}
+.document ul li .boards{
+	font-size: 1.3rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #000;
+}
+.document ul li .boardDocs{
+	margin-top:1rem;
+	height: 500px;
+	padding:  0 1rem;
+}
+

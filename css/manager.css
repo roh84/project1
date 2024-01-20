@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.manager-box {
+  width: 80%;
+  margin: auto;
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+}
+
+.manager-title {
+  text-align: center;
+}
+
+.manager {
+  border: 5px solid #fa5;
+  height: 40vh;
+  width: 50vw;
+}
+
+.manager-top {
+  width: 50vw;
+  margin: auto;
+}
+
+.manager-people {
+  border-bottom: 2px solid #fa5;
+  width: 50vw;
+  margin: 10rem auto 2rem auto;
+}
+
+.manager-peoplech {
+  width: 50vw;
+  border: 1px solid black;
+  height: 5vh;
+  margin: auto;
+}
+
+.document ul {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.document ul li {
+  width: calc((100% - 5rem) / 3);
+  text-align: center;
+}
+.document ul li .boards {
+  padding: 1rem 0;
+  border-bottom: 1px solid #000;
+}
+.document ul li .boardDocs {
+  margin-top: 1rem;
+  height: 500px;
+  border: 1px solid #000;
+}
+
